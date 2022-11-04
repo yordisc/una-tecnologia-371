@@ -1,0 +1,73 @@
+:root {
+    --Dark: #000;
+    --White: #ffffff;
+    --Cyan: #00dae1;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    
+    font-family: "Cinzel", serif;
+    color: #fff;
+    background-color: gray;
+  }
+  
+  .head-contac {
+    color: var(--Cyan);
+    display: block;
+    font-size: 1.5rem;
+  }
+  
+  .head-log a {
+    color: var(--Cyan);
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .flex-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    gap: 10rem;
+    margin: 2rem;
+  }
+  
+  .flex-footer img {
+    cursor: pointer;
+    
+  }
+   
+  nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white !important;
+  }
+
+
+  .flex-footer{
+    padding: 1rem;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    background-color: black;
+    color:white;
+  }
+
+  /********Formulario de Pago ********/
+  
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
+  
